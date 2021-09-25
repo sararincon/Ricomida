@@ -1,0 +1,249 @@
+body {
+  overflow-x: hidden;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #373a3c;
+}
+
+.oscuro.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+.navbar-brand {
+  font-family: "Lobster", cursive;
+  font-size: 37px;
+}
+.oscuro a {
+  color: #ffffff;
+}
+
+/* Seccion Principal */
+.seccionPrincipal {
+  border-top: 1px solid black;
+  margin-top: 14px;
+}
+
+.hero-section img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 14px;
+}
+
+.recetaPizza {
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-top: 13px;
+  padding-bottom: 7px;
+}
+
+.texto-descripcion p {
+  text-align: center;
+  font-family: "Cabin";
+  font-weight: 700;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+}
+
+button.btn.btn-outline-secondary {
+  font-size: 13px;
+  min-width: 112px;
+  height: auto;
+  padding: 12px 9px;
+  color: black;
+  border-color: #dddddd;
+}
+
+/* CARRUSEL */
+.carousel-indicators {
+  top: 170px;
+  margin-top: 17px;
+}
+
+.carousel-indicators button.bg-dark {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  display: none;
+}
+
+.carruselfotos {
+  margin-top: 68px;
+  margin-bottom: 58px;
+}
+.carousel-inner {
+  border-bottom: 1px solid black;
+  padding-bottom: 68px;
+  display: none;
+}
+
+/* SECCION DE INGREDIENTES Y PREPARACION */
+
+.ingredientes {
+  font-family: "Cabin";
+  font-weight: 700;
+  font-size: 20px;
+  border-bottom: none;
+}
+.textoMasa {
+  margin: 20 0 40;
+}
+
+.instruccionesIngPre p {
+  font-family: "Cabin";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.preparacion {
+  font-family: "Cabin";
+  font-weight: 700;
+  font-size: 20px;
+  border-bottom: none;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.colorRojo {
+  color: red;
+}
+
+/* NEWSLETTER */
+.newsletterRojo {
+  background-color: #dc3545;
+  text-align: center;
+  height: 534px;
+}
+
+.textoSuscribite {
+  padding-top: 150px;
+  padding-bottom: 7px;
+}
+
+.ricomidaFooter {
+  background-color: #373a3c;
+  height: 125px;
+}
+
+.textoFooter {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 38px;
+  font-family: "Lobster", cursive;
+  font-size: 37px;
+}
+.newsletterRojo {
+  color: #ffffff;
+}
+
+.newsletterRojo .textoRicomidaLogo {
+  font-family: "Lobster", cursive;
+}
+
+button.btn.btn-outline-light {
+  width: 233px;
+  margin-top: 40px;
+}
+
+/* CARDS */
+.contenedorRecetas {
+  border-top: 1px solid black;
+}
+.tituloRecetas {
+  text-align: center;
+  margin-top: 19px;
+  margin-bottom: 38px;
+}
+.card-body {
+  min-height: 231px;
+}
+.card-title {
+  margin-top: 24px;
+  margin-bottom: 31px;
+}
+.card {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1000px;
+  }
+  /* SECCION PRINCIPAL */
+  .seccionPrincipal {
+    border-top: none;
+    margin-top: 14px;
+  }
+
+  .botones {
+    display: flex;
+    justify-content: start;
+  }
+
+  button.btn.btn-outline-secondary {
+    font-size: 16px;
+    min-width: 141px;
+    height: 40px;
+    padding: 0 14px;
+    color: black;
+    border-color: #dddddd;
+  }
+
+  .texto-descripcion p {
+    text-align: start;
+    font-family: "Cabin";
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .recetaPizza {
+    font-size: 40px;
+    text-align: start;
+    padding-top: 30px;
+  }
+  .texto-descripcion .recetaPizza {
+    padding-right: 200px;
+  }
+
+  /* CARRUSEL */
+  .carousel-inner {
+    display: block;
+  }
+  .carousel-indicators button.bg-dark {
+    display: block;
+  }
+
+  /* SECCION INGREDIENTES Y PREPARACION */
+  .ingredientes {
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    display: inline-block;
+  }
+
+  .preparacion {
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    margin-top: 0;
+  }
+
+  .instruccionesIngPre {
+    font-size: 20px;
+  }
+  /* CARDS */
+  .card {
+    margin-bottom: 78px;
+  }
+  .tituloRecetas {
+    font-family: "Cabin";
+    font-weight: 700;
+    text-align: center;
+    margin-top: 22px;
+    font-size: 40px;
+  }
+}
